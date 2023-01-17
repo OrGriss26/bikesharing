@@ -2,7 +2,7 @@
 
 ## Overview of the statistical analysis:
 
-Use data from the Citi Bike program in New York City for August 2019 was retrieved from ride.citibikenyc.com. The data was transformed using andas to change the datatype of the "tripduration" column from an integer to a datetime datatype to get the time in hours and minutes.
+Use data from the Citi Bike program in New York City for August 2019 was retrieved from ride.citibikenyc.com. The data was transformed using pandas to change the datatype of the "tripduration" column from an integer to a datetime datatype to get the time in hours and minutes.
 
 ## Purpose
 
@@ -13,7 +13,7 @@ The purpose of the current analysis is to prepare visualizations that give poten
 
 [link to dashboard]([LINK GOES HERE](https://public.tableau.com/app/profile/griselda1378/viz/NYCCitiBikeDashboard_16680451684360/NYCCitiBikeDashboard))
 
-[link to story]([LINK GOES HERE "link to dashboard"](https://public.tableau.com/app/profile/griselda1378/viz/NYCStory_16680458689970/NYCStory#1))
+[link to story]([LINK GOES HERE "link to story"](https://public.tableau.com/app/profile/griselda1378/viz/NYCStory_16680458689970/NYCStory#1))
 
 ## RESULTS
 
@@ -25,7 +25,10 @@ POINT #2 - Looking at visualizations for 'Checkout Times for Users' and 'Checkou
 
 POINT #3 - The 'Gender Breakdown' pie chart shows that males in NYC utilize the bikesharing program almost 3 times as often as females. Further analysis is needed to understand why this is the case.
 
-POINT #4 - The heatmap of 'Trips by Weekday per Hour' shows a clear pattern of bicycle useage 1) during the morning weekday commute (7-9 a.m.), 2) during the evening weekday commute (4-7 p.m.) except on Wednesday evenings, and 3) all day long on weekends.
+POINT #4 - The heatmap of 'Trips by Weekday per Hour' shows a clear pattern of bicycle useage 
+1) during the morning weekday commute (7-9 a.m.), 
+2) during the evening weekday commute (4-7 p.m.) except on Wednesday evenings, and 
+3) all day long on weekends.
 
 POINT #5 - The 'Trips by Gender (Weekday per Hour)' heatmap shows that the useage pattern is true regardless of gender, although the total numbers for males is considerably higher.
 
